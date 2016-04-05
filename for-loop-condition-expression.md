@@ -12,7 +12,7 @@ for (var i = 0; i < Math.ceil(Math.random()*10); i++) {
   console.log("Hello!");
 }
 ```
-However, this code will generate a new random number before each loop iteration, meaning that the probability of the loop running many times will be much smaller than the probability of it running once or twice. This is because even if the random number generated is `10`, it will likely be replaced with a smaller random number in the next loop iteration, and the loop will stop sooner than would be expected from the uniform probability distribution.
+However, this code will generate a new random number before each loop iteration, meaning that the probability of the loop running many times will be much smaller than the probability of it running once or twice. This is because even if the random number generated is high, it will likely be replaced with a smaller random number in the next loop iteration, and the loop will stop sooner than would be expected from the uniform probability distribution.
 
 A better way of getting the loop to run between `1` and `10` times would be:
 ``` javascript
