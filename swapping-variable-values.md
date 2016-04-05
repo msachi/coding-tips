@@ -1,4 +1,4 @@
-Today I learned a straight-forward way to swap the values of two variables.
+Today I learned a straight-forward way to swap the values of two variables in JavaScript.
 
 Say `var a = 10` and `var b = 20`.
 
