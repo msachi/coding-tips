@@ -9,7 +9,7 @@ a = b;         // a is now 20
 b = temp;      // b is now 10
 ```
 
-An quicker way to do this is:
+A quicker way to do this is:
 ``` javascript
 b = [a, a = b][0];
 ```
