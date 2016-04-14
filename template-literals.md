@@ -1,6 +1,6 @@
 Template literals are string literals that allow embedded expressions.
 
-They are enclosed by the back-tick ``(` `)``, rather than single or double quotes like normal strings. They can contain place holders, indicated by the Dollar sign (`$`) and curly braces (`{}`), which serve to embed expressions that are then evaluated and concatenated with the rest of the text into a single string.
+They are enclosed by the back-tick (`` ` ```` ` ``), rather than single or double quotes like normal strings. They can contain place holders, indicated by the Dollar sign (`$`) and curly braces (`{}`), which serve to embed expressions that are then evaluated and concatenated with the rest of the text into a single string.
 
 Template literals make it easier to write multi-line strings, and allow substitutions in strings more readable.
 
